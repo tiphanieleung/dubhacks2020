@@ -14,3 +14,4 @@ Open react webapp using
 ```
  npm start
 ```
+Press ctrl + c to quit
