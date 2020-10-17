@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "inlaid-vehicle-292821",
+  "private_key_id": "8644e0ca3e372375748dd66c18e06abf0ee12ec8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDPaQWAGuN/7vEE\nc4/kBsdZgsxRnXlgE0HIZ92Gj8vzLqiiWORtPtPYbK4WF8QOTurPXpnkDmOQ62k6\nMOXGkK2bqzcSKWxJTz3wHpIxwoTRh+xiG5pfSMV58NktZJKjm1HgNYQTX/PuwDvB\n8PMey/j3+YpMwi+4rlFS/XgEw3kp9e88X/LVOGXfszx+IoPkRT4hNOw3O/ykqJMc\nIHqxfZ4qiter6FfAgKUGOWNNK+Su/EikRzyBom6owsTivde6zOe0v+mNuzz7SslU\nKy8V193FK5VpSGjc+smwggm9hPoe876zgyKswjtjGRjA1JaZcUmgtQLblU6pweBq\nQjO3/qW/AgMBAAECggEAPvlxsJg5a/4mEsZtsXv3ai+jDsLD+A5QwmL66WDeuVr4\n27YmwR663rL81ntnzTpb5BOioRJXW8iGXiM7mOMTuzisk2idVtLnCPGXTOF1R1NA\nS/d6kyS6xNACeNxZA7DklrFZBTL0kxCt9DBO+RJQaSZMvgqVx7qxuYN5PeUF9F2K\nI0bE3HKQag8ozMfA+VP2zJIGPeiCxMNAkqqAZUIh/qv7wsvb2oz4tIBaadg/oSbC\nPQKWtihmdfKWgojCoiV/QPokG4pcPm+e5UZG5TShiYa0/YRyQyimjTiaM1BOMLda\nTe3mGp6WYziqtJK6VgAPSzLHvlXiebATLCpbCvALnQKBgQDy3P36X/NUtXtoTGg8\np2D3zR03p4LDmUFCkHQq8gnYqjYVLoW1CcOiYg/JZ5/H6k0Sjopwn/grR/XC2Ywd\nkpLOvrlu15tiEWrg/2gl+l7TSoHK2EZaa2MFfGgaT1a+xsycT5XVSXHISrPDi2oZ\nMJOrjZOkYXKxtTknJwylphxpfQKBgQDaoRmMz7heGQdzZYXKgf+XsCpS5Tq8Rf+O\n5FBhvJOT4eONbgJ9yQC63BZRMuQwQQqw+8v+cF2PDcE2BeJncOHKmvWuv8sJe2vi\nUwki6KyDCAYgEPePqU6eO7cwUUxFsBE5d5Au0dz9bOT1HV179z2j5j4NjzGsoxb2\n0eKJ+zoQ6wKBgH0KBsF30UJVxdnnLOu9iZFLy7Uxy4OFTjJFSWoq/6LLz9iMAU86\nXb0nG9WoQn2dRl09gk2GLzGpdQEDHL7FDkzfqX1GCLwvF4YMOcUD6PqEK9sSCvbW\nvz691KNnIdRLamE4IH6Vt71VqMQO7WtWtVDoLZG+klyoX2qnEj3fDlXJAoGAFkcQ\nKW8JJF18it+vcGEqwDQtO+EryP+A+Ph+0Fa82vbLjx/ElTikIGZIx+FdqyUVh89A\njB67Cdam93BGD7BK8bA0lKfqcn7nEVrQtYPsADYTGbVg5HymDC2djwjZssgsGST7\nximQUSqFcgyZ+AXLfCX78LnEoAjGUEQ2x0SYOB0CgYBW5SRm8qMS7aqW0A4hpvn+\n3N1AJnlom9d78OGOwm9HT48/79rWSvvcjrMENvsRzeOpKlY11nN5SxJsyEISUVGP\nAmdDF7bEM8GiRRRloB9s4VyQcfRFn3LUJmpeQy1DuJRz2DP4+JeQ3H28kFFx7R4I\nhOq8MVwHdOpwwskYc9/ICA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "kelvinka@inlaid-vehicle-292821.iam.gserviceaccount.com",
+  "client_id": "106361018729151735125",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kelvinka%40inlaid-vehicle-292821.iam.gserviceaccount.com"
+}
