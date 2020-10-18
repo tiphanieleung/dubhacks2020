@@ -11,8 +11,13 @@
     "react-mdl": "^2.1.0",
     "react-ml": "^0.4.1",
     "react-router-dom": "^5.2.0",
+<<<<<<< HEAD
     "react-scripts": "3.4.3",
     "react-sidebar": "^3.0.2"
+=======
+    "react-script": "^2.0.5",
+    "react-scripts": "3.4.3"
+>>>>>>> 55c3cb0c80f3141cbb0545df65dc8b4ce261da62
   },
   "scripts": {
     "start": "react-scripts start",
