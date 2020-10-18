@@ -12,22 +12,33 @@
   ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-/****************PROBLEMS PAGE**************** */
-.stormTitle {
-  text-align: center;
-  font-size: 64px;
-}
-
-.stormDescription {
-  text-align: center;
-  font-size: 22px;
-  width: 600px;
-}
-
 input:focus {
   outline: none;
 }
 
 textarea:focus {
   outline: none;
+}
+
+/****************PROBLEMS.JS**************** */
+.stormTitle {
+  font-size: 64px;
+  margin: 0;
+  padding-top: 2rem;
+}
+
+.stormDescription {
+  font-size: 22px;
+  margin-top: 0;
+  text-align: center;
+}
+
+.stormSection {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  justify-content: center;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import Problems from "../components/Problems"
-import { ProblemCard, ProblemDisplayCard } from "../components/problemCards"
+import Problems from "../Components/Problems"
+import { ProblemCard, ProblemDisplayCard } from "../Components/problemCards"
 
 function Storm() {
     return (
