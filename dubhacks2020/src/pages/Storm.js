@@ -1,12 +1,11 @@
 import React from 'react';
-import ProblemCard from '../components/problemCards';
+import Problems from "../Components/Problems"
 
 function Storm() {
     return (
-        <div>STORM
-            <ProblemCard />
+        <div>
+            <Problems />
         </div>
-
     )
 }
 
