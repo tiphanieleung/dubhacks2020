@@ -42,3 +42,8 @@ textarea:focus {
   text-align: center;
   justify-content: center;
 }
+
+.ProblemContainer {
+  width: 100%;
+  background-color: #f9f9f9;
+}
