@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 
 import Main from './pages/main';
