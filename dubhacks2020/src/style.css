@@ -1,84 +1,25 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .header-color {
-  background: white !important;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, white, white)!important;  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, white, white)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: white !important; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    white,
+    white
+  ) !important; /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    white,
+    white
+  ) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.landing-grid {
-  background: #74ebd5 !important;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5)!important;  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #ACB6E5, #74ebd5)!important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+/****************PROBLEMS PAGE**************** */
+.stormTitle {
   text-align: center;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  min-height: 100%;
-  height: fit-content;
+  font-size: 64px;
 }
 
-.avatar-image {
-  height: 250px;
-  padding-top: 5em;
-}
-
-.banner-text {
-  background-color: white);
-  opacity: 0.8;
-  width: 75%;
-  margin: auto;
-  border-radius: 10px;
-}
-
-.banner-text h1 {
-  font-size: 66px;
-  font-weight: bold;
-  color: black;
-}
-
-.banner-text hr {
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
-}
-
-.banner-text p {
-  color: black;
-  font-size: 20px;
-  padding: 1em;
+.stormDescription {
   text-align: center;
+  font-size: 22px;
+  width: 600px;
 }
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
-
-.social-links {
-  color: white;
-  font-size: 5em;
-  padding: 8px;
-}
-
-.a:link, a:visited {
-  color: white;
-}
-
-
