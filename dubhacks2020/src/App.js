@@ -4,6 +4,8 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './pages/main';
 import { Link } from 'react-router-dom';
 
+import './style.css';
+
 function App() {
     let [width, setWidth] = useState(window.innerWidth)
 
@@ -22,18 +24,20 @@ if (width > 500) {
   return (
 <div className="demo-big-content">
     <Layout fixedHeader>
-    <Header className='header-color' title={<Link to="/" style={{ color: 'white', textDecoration: 'none'}}>F</Link>} scroll>
+    <Header className='header-color' title={<Link to="/" style={{ color: 'black', textDecoration: 'none'}}>F</Link>} scroll>
             <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/board">Board</Link>
+                <Link to="/home" style={{ color: 'black' }}>Home</Link>
+                <Link to="/about" style={{ color: 'black' }}>About</Link>
+                <Link to="/storm" style={{ color: 'black' }}>Storm</Link>
+                <Link to="/profile" style={{ color: 'black' }}>Profile</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link to="/" style={{ color: 'grey', textDecoration: 'none'}}>F</Link>}>
             <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/board">Board</Link>
+                <Link to="/home" style={{ color: 'black' }}>Home</Link>
+                <Link to="/about" style={{ color: 'black' }}>About</Link>
+                <Link to="/storm" style={{ color: 'black' }}>Storm</Link>
+                <Link to="/profile" style={{ color: 'black' }}>Profile</Link>
             </Navigation>
         </Drawer>
         <Content>
@@ -47,18 +51,20 @@ if (width > 500) {
     return (
     <div className="demo-big-content">
     <Layout>
-    <Header className='header-color' title={<Link to="/" style={{ color: 'white', textDecoration: 'none'}}>F</Link>} scroll>
+    <Header className='header-color' title={<Link to="/" style={{ color: 'black', textDecoration: 'none'}}>F</Link>} scroll>
             <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/board">Board</Link>
+                <Link to="/home" style={{ color: 'black' }}>Home</Link>
+                <Link to="/about" style={{ color: 'black' }}>About</Link>
+                <Link to="/storm" style={{ color: 'black' }}>Storm</Link>
+                <Link to="/profile" style={{ color: 'black' }}>Profile</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link to="/" style={{ color: 'grey', opacity: '0.9', textDecoration: 'none'}}>F</Link>}>
             <Navigation>
-                <Link to="/home">Home</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/board">Board</Link>
+                <Link to="/home" style={{ color: 'black' }}>Home</Link>
+                <Link to="/about" style={{ color: 'black' }}>About</Link>
+                <Link to="/storm" style={{ color: 'black' }}>Storm</Link>
+                <Link to="/profile" style={{ color: 'black' }}>Profile</Link>
             </Navigation>
         </Drawer>
         <Content>
