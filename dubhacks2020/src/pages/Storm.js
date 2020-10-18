@@ -1,8 +1,12 @@
 import React from 'react';
+import ProblemCard from '../components/problemCards';
 
 function Storm() {
     return (
-        <div>STORM</div>
+        <div>STORM
+            <ProblemCard />
+        </div>
+
     )
 }
 
