@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Board from './pages/Board';
+import Buttons from './pages/Buttons'
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/contact" exact component={Contact} />
           <Route path="/board" exact component={Board} />
+          <Route path="/Buttons" exact component={Buttons} />
         </Switch>
       </div>
     </Router>
