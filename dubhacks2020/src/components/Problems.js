@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import "../style.css";
-import ProblemCards from "../Components/problemCards"
+import { ProblemCard } from "../Components/problemCards"
 
 class Problems extends Component {
     render() {
@@ -11,7 +11,7 @@ class Problems extends Component {
                     <h1 className="stormTitle">Problems</h1>
                     <h2 className="stormDescription"> List out some problems that you've got floating in that beatiful mind of yours! It can be anything! </h2>
                </div>
-                <ProblemCards />
+                <ProblemCard />
             </div>
             </div>
         )
