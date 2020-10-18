@@ -6,7 +6,6 @@ function Profile() {
     return (
         <div>PROFILE
             <Buttons />
-            <TextInputCard  />
         </div>
     )
 }

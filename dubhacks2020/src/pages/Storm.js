@@ -1,5 +1,5 @@
 import React from 'react';
-import Problems from "../components/Problems"
+import Problems from "../Components/Problems"
 
 function Storm() {
     return (
