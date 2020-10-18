@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import "../style.css";
 
+
 class Problems extends Component {
     render() {
         return (
@@ -11,6 +12,7 @@ class Problems extends Component {
                 <div className="test">
                     <h2 className="stormDescription"> List out some problems that you've got floating in that beatiful mind of yours! It can be anything! </h2>
                 </div>
+                
             </div>
         )
     }
