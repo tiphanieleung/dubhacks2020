@@ -22,7 +22,7 @@ function App() {
 
     return (
     <div>
-        <Header className='header-color' title={<Link to="/"><img style={{width:"75px", height:"75px"}} src={logo} alt="login" /></Link>} scroll>
+        <Header className='header-color' title={<Link to="/"><img style={{width:"75px", height:"75px"}} src={logo} alt="login" /></Link>} >
             <Navigation>
                 <Link to="/home" style={{ color: 'black'}}>Home</Link>
                 <Link to="/storm" style={{ color: 'black' }}>Storm</Link>
@@ -33,7 +33,7 @@ function App() {
         <Content>
             <Main />
         </Content>
-</div>
+    </div>
     );
 }
 
