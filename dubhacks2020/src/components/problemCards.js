@@ -3,9 +3,10 @@ import { Card, Button, CardHeader, CardFooter, CardBody,
     CardTitle, CardText } from 'reactstrap';
 import '../style.css';
 
-function ProblemCard() {
-    let [titleInput, setTitleInput] = useState('');
-    let [mainTextInput, setMainTextInput] = useState('');
+// OPTIONAL: pass in the title and mainText for display: props.title and or props.mainText
+function TitleAndMainTextCard(props) {
+    let [titleInput, setTitleInput] = useState(props.title);
+    let [mainTextInput, setMainTextInput] = useState(props.mainText);
 
     return (
         <div>
@@ -21,15 +22,27 @@ function ProblemCard() {
     )
 }
 
-function ProblemDisplayCard() {
+// need to pass in the TITLE for display: props.title
+function TitleOnlyDisplayCard(props) {
     return (
         <div style={{borderStyle: 'dashed', width: '14rem', padding: '5px', borderStyle: 'solid', borderRadius: '30px', textAlign: 'center', borderWidth: 'medium', borderColor: 'blue', fontWeight: 'bold'}}>
-        SAasfttt sdh sdghdg dfghdfh dfghdfgh sdfg sdfg dfg sd fgsdfgsdfg sdfgsdfgs sdfgsdfgsg sdfgsdfg 
+            {props.title}
+        </div>
+    )
+}
+
+// OPTIONAL: pass in the mainText for display: props.mainText
+function TextInputCard(props) {
+    let [mainTextInput, setMainTextInput] = useState(props.mainText);
+    return (
+        <div style={{borderStyle: 'dashed', width: '14rem', padding: '5px', borderStyle: 'solid', borderRadius: '30px', textAlign: 'center', borderWidth: 'medium', borderColor: 'blue', fontWeight: 'bold'}}>
+            <textarea rows={15} placeholder={'Start typing away your frustrations!'} style={{borderStyle: 'none', fontSize: '11px', width: '90%', fontWeight: 'bold', resize: 'none'}} type='textarea' name='title' value={mainTextInput} onChange={(e) => setMainTextInput(e.target.value)} />
         </div>
     )
 }
 
 export {
-    ProblemCard,
-    ProblemDisplayCard,
+    TitleAndMainTextCard,
+    TitleOnlyDisplayCard,
+    TextInputCard,
 }
